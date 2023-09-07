@@ -15,20 +15,21 @@ Here is the ERD of the apps.
 To test the app, kindly check the .env.example files.
 
 ## How to Config
-- Make sure the .env file has been filled correctly
-- Install the packages with this command
+Make sure the .env file has been filled correctly
+
+Install the packages with this command
  ```sh
 npm i
 ```
-- Create the database
+Create the database
 ```sh
 sequelize db:create
 ```
-- Migrate the models to database
+Migrate the models to database
 ```sh
 sequelize db:migrate
 ```
-- Run the apps in dev environment
+Run the apps in dev environment
 ```sh
 npm run dev
 ``` 
