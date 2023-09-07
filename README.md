@@ -40,5 +40,7 @@ sequelize db:seed:all
 
 ## Credentials for Example User from Seeders
 username: user
+
 email: user@example.com
+
 password: example123
