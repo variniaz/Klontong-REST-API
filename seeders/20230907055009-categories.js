@@ -13,14 +13,20 @@ module.exports = {
         {
           id: 9999,
           name: 'Food',
+          createdAt: new Date(),
+          updatedAt: new Date(),
         },
         {
           id: 9998,
           name: 'Beverage',
+          createdAt: new Date(),
+          updatedAt: new Date(),
         },
         {
           id: 9997,
           name: 'Personal Care',
+          createdAt: new Date(),
+          updatedAt: new Date(),
         },
       ],
       {}
