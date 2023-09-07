@@ -32,4 +32,13 @@ sequelize db:migrate
 Run the apps in dev environment
 ```sh
 npm run dev
-``` 
+```
+If needed, use seeder to add category and user
+```sh
+sequelize db:seed:all
+```
+
+## Credentials for Example User from Seeders
+username: user
+email: user@example.com
+password: example123
